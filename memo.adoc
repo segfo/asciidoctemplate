@@ -1,0 +1,54 @@
+//==============================================================
+// Attribute / アトリビュート
+//==============================================================
+// 日本語ドキュメント
+:lang: ja
+// 文書タイプは book にする
+:doctype: book
+// ドキュメントに関する説明
+:description:
+// ドキュメント名、ヘッダーに入る
+:docname: ドキュメント名
+// イメージファイルを置くフォルダ（相対PATH）
+:imagesdir: ./images/
+// アイコンフォントを利用するフラグ
+:icons: font
+// フォントファイルを置くフォルダ（相対PATH）
+:pdf-fontsdir: ./fonts/
+// スタイルファイルを指定（相対PATH）
+:pdf-style: ./style/public_style.yml
+// // ロゴ画像ファイルを指定（相対PATH）
+// :title-logo-image: image:./titlepage.png[]
+// 表紙背景画像ファイルを指定（相対PATH）
+// :title-page-background-image: image:./titlepage_background.png[]
+:toc-title: 目次
+:preface-title: はじめに
+:appendix-caption: 付録
+:caution-caption: 注意
+:example-caption: 例
+:figure-caption: 図
+:important-caption: 重要
+:last-update-label: 最終更新
+:listing-caption: リスト
+:manname-title: 名前
+:note-caption: 注記
+:preface-title: まえがき
+:table-caption: 表
+:tip-caption: ヒント
+:toc-title: 目次
+:untitled-label: 無題
+:version-label: バージョン
+:warning-caption: 警告
+:sectnums:
+:chapter-label:
+:toc:
+:toclevels: 3
+:version-label: Version
+:revnumber: 0.1(Draft)
+
+
+= タイトル
+segfo
+20年XX月XX日
+
+== はじめに

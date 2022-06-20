@@ -1,0 +1,97 @@
+//==============================================================
+// Attribute / アトリビュート
+//==============================================================
+// 日本語ドキュメント
+:lang: ja
+// 文書タイプは book にする
+:doctype: book
+// イメージファイルを置くフォルダ（相対PATH）
+:imagesdir: ./images/
+// アイコンフォントを利用するフラグ
+:icons: font
+// フォントファイルを置くフォルダ（相対PATH）
+:pdf-fontsdir: ./fonts/
+// スタイルファイルを指定（相対PATH）
+:pdf-themesdir: ./style/
+// :pdf-theme: fanzine_style.yml
+:pdf-theme: report.yml
+// // ロゴ画像ファイルを指定（相対PATH）
+// :title-logo-image: image:./logoA.png[]
+// 表紙背景画像ファイルを指定（相対PATH）
+// :title-page-background-image: image:./logoA.png[]
+:toc-title: 目次
+:preface-title: はじめに
+:appendix-caption: 付録
+:caution-caption: 注意
+:example-caption: 例
+:figure-caption: 図
+:important-caption: 重要
+:last-update-label: 最終更新
+:listing-caption: リスト
+:manname-title: 名前
+:note-caption: 注記
+:preface-title: まえがき
+:table-caption: 表
+:tip-caption: ヒント
+:untitled-label: 無題
+:version-label: バージョン
+:warning-caption: 警告
+// セクション番号
+:sectnums:
+:chapter-signifier: 
+:toc: 
+:toclevels: 3
+:revnumber: 1
+:publish_year: 2022
+:copyright: YYYY株式会社
+:confidentiality: 社外秘
+:source-highlighter: rouge
+// 表の塗りつぶし（even, odd, all, none）
+:table-stripes: none
+
+= XXXXレポート: OOについて～
+XXX株式会社 <example@example.com>; YYYY株式会社 <example2@example.com>
+20年XX月XX日
+
+== はじめに
+hogheogheoge
+
+
+link:https://example.com/[リンクテキスト]
+
+`println!("hello world");`
+
+``` rust
+fn main(){
+    println!("hello world");
+}
+```
+
+[options="header"]
+|===
+        |#|項目名|詳細
+        |1|ほげ|ふが
+.2+.^|2|link:https://example.com/[リンクテキスト]|ふが
+    |2行目の内容|ふー
+    |3 2+^| XXのため、省略
+    |4 2+^| image:rust-logo-256x256-blk.png[]
+    |5|ふがふが|もごもご
+    |6|ふがむが|ふがもご
+|===
+
+AAAAAAAAAAA +
+[.stripes-even,cols=2*]
+|===
+|A1
+|B1
+|A2
+|B2
+|A3
+|B3
+|===
+
+== next
+hohogehohoge
+
+== 3つ目
+あああああああああああああああ

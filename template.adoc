@@ -5,10 +5,6 @@
 :lang: ja
 // 文書タイプは book にする
 :doctype: book
-// ドキュメントに関する説明
-:description:
-// ドキュメント名、ヘッダーに入る
-:docname: ドキュメント名
 // イメージファイルを置くフォルダ（相対PATH）
 :imagesdir: ./images/
 // アイコンフォントを利用するフラグ
@@ -16,11 +12,13 @@
 // フォントファイルを置くフォルダ（相対PATH）
 :pdf-fontsdir: ./fonts/
 // スタイルファイルを指定（相対PATH）
-:pdf-style: ./style/public_style.yml
+:pdf-themesdir: ./style/
+// :pdf-theme: fanzine_style.yml
+// :pdf-theme: report.yml
 // // ロゴ画像ファイルを指定（相対PATH）
-// :title-logo-image: image:./titlepage.png[]
+// :title-logo-image: image:./logo.png[]
 // 表紙背景画像ファイルを指定（相対PATH）
-// :title-page-background-image: image:./titlepage_background.png[]
+// :title-page-background-image: image:./background.png[]
 :toc-title: 目次
 :preface-title: はじめに
 :appendix-caption: 付録
@@ -35,21 +33,23 @@
 :preface-title: まえがき
 :table-caption: 表
 :tip-caption: ヒント
-:toc-title: 目次
 :untitled-label: 無題
 :version-label: バージョン
 :warning-caption: 警告
+// セクション番号
 :sectnums:
-:chapter-label:
-:toc:
+:chapter-signifier: 
+:toc: 
 :toclevels: 3
-:version-label: Version
-:revnumber: 0.1(Draft)
+:revnumber: 1
+:copyright: segfo
+:confidentiality: 
+:source-highlighter: rouge
+// 表の塗りつぶし（even, odd, all, none）
+:table-stripes: none
 
-
-= Title
+= XXXXレポート: OOについて～
 segfo
-20XX年XX月XX日
+20年XX月XX日
 
 == はじめに
-

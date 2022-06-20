@@ -21,7 +21,6 @@ def decodeUrlEncodeList(strList):
 
 
 def specifyFilePathResolve(basePath, extList, recursive=False):
-    # if recursive:
     if recursive:
         result = []
         for path, dirList, fileList in os.walk(basePath):
